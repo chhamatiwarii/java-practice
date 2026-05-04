@@ -1,3 +1,6 @@
+import java.util.Scanner;
+
+
 public class Test {
 
     public static void main(String[] args) {
@@ -7,5 +10,22 @@ public class Test {
         // if user input lies in range 41-60 then print "Medium"
         // if user input lies in range 60-80 then print "High"
         // if user input lies in range >80 then print "Highest"
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Your First Number = ");
+        int a = sc.nextInt();
+        if(a>=0 && a<=20){
+            System.out.println("Very Low");
+        }
+        if(a>=21 && a<=40){
+            System.out.println("Low");
+        }
+        if(a>=41 && a<=60){
+            System.out.println("Medium");
+        }
+        if(a>=81){
+            System.out.println("Highest");
+        }
+
     }
 }
