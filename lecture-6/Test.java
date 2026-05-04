@@ -12,20 +12,19 @@ public class Test {
         // if user input lies in range >80 then print "Highest"
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter Your First Number = ");
+        System.out.print("Enter Your First Number = ");
         int a = sc.nextInt();
         if(a>=0 && a<=20){
             System.out.println("Very Low");
-        }
-        if(a>=21 && a<=40){
+        } else if(a>=21 && a<=40){
             System.out.println("Low");
-        }
-        if(a>=41 && a<=60){
+        } else if(a>=41 && a<=60){
             System.out.println("Medium");
-        }
-        if(a>=81){
+        } else if(a>=81){
             System.out.println("Highest");
+        } else {
+            System.out.println("Invalid Input");
         }
-
+        System.out.println("\n PROGRAM END ‼️");
     }
 }
