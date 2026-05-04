@@ -1,30 +1,54 @@
-import java.util.Scanner;
+/*
+Problem: FizzBuzz
+
+Given an integer n, print with the following rules:
+- If a number is divisible by 3, print "Fizz"
+- If a number is divisible by 5, print "Buzz"
+- If a number is divisible by both 3 and 5, print "FizzBuzz"
+- Otherwise, print the number itself
+
+Sample Input:
+n = 15
+
+Sample Output:
+FizzBuzz
 
 
-public class Test {
 
+Sample Input:
+n = 3
+
+Sample Output:
+Fizz
+
+
+
+Sample Input:
+n = 5
+
+Sample Output:
+Buzz
+
+
+
+Sample Input:
+n = 7
+
+Sample Output:
+7
+
+
+
+
+
+Edge Cases:
+- n = 1 -> 1
+- n = 3 -> 1 2 Fizz
+- n = 5 -> 1 2 Fizz 4 Buzz
+*/
+
+class Test {
     public static void main(String[] args) {
-        // You need to take a user input
-        // if user input lies in range 0-20 then print "Very Low"
-        // if user input lies in range 21-40 then print "Low"
-        // if user input lies in range 41-60 then print "Medium"
-        // if user input lies in range 60-80 then print "High"
-        // if user input lies in range >80 then print "Highest"
-
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter Your First Number = ");
-        int a = sc.nextInt();
-        if(a>=0 && a<=20){
-            System.out.println("Very Low");
-        } else if(a>=21 && a<=40){
-            System.out.println("Low");
-        } else if(a>=41 && a<=60){
-            System.out.println("Medium");
-        } else if(a>=81){
-            System.out.println("Highest");
-        } else {
-            System.out.println("Invalid Input");
-        }
-        System.out.println("\n PROGRAM END ‼️");
+        
     }
 }
