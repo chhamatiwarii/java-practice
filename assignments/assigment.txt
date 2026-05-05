@@ -1,0 +1,11 @@
+Go to workat tech
+
+Link: https://workat.tech/problem-solving/lists/beginner-problems/practice
+
+In beginner problems solve these problems:
+1. Cube
+2. Simple Interest
+3. Candies
+4. Milkman
+5. Win or Lose
+6. Average Weight
