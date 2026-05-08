@@ -9,3 +9,14 @@ In beginner problems solve these problems:
 4. Milkman
 5. Win or Lose
 6. Average Weight
+
+
+
+
+Odd Even
+Print Digits
+Divisible By Six
+Temperature Conversion
+7 Up 7 Down
+Triangle
+Number Reversal
