@@ -15,14 +15,26 @@ public class PrimeCheck {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Your Number = ");
-        int a = sc.nextInt();
-        if (a%a == 0 && a%1==0){
-            System.out.println("Prime");
-        }else{
+        int n = sc.nextInt();
+        if(n <= 1){
             System.out.println("Not Prime");
-        }
+        }else{
+            boolean flag = true;
 
+        for(int i = 2; i*i<=n; i++){
+            if(n%i == 0){
+                flag = false;
+                break;
+
+            }
+           
+        }if(flag){
+                System.out.println("Prime");
+            }else{
+                System.out.println("Not Prime");
+            }
         //isse jada mai nii soch paayi i know this is wrong because every number is divisible by 1 and its own
+        }
 
     }
 
