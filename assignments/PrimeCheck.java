@@ -1,4 +1,4 @@
-package assignments;
+import java.util.Scanner;
 
 /*
     You need to take an integer from the user and check 
@@ -13,6 +13,14 @@ package assignments;
 public class PrimeCheck {
     
     public static void main(String[] args) {
-        
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter Your Number = ");
+        int a = sc.nextInt();
+        if (a%a == 0 && a%1==0){
+            System.out.println("Prime");
+        }else{
+            System.out.println("Not Prime");
+        }
+
     }
 }
