@@ -9,7 +9,9 @@ public class Cube {
         int b = 6*a*a;
         int c = a*a*a;
         System.out.println((b + " " + c));
+        sc.close();
 
         //isme i was thinking to use square nii aya but phr aise kr diya
     }
+
 }
