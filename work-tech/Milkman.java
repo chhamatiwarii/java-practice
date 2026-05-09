@@ -14,6 +14,8 @@ public class Milkman {
         System.out.println(litres);
         System.out.println(cost);
 
+        sc.close();
+
         //phle mai pai dhundh rhi thi kaise likha jaata h then question pda ki okk 3.14 bi use kr skte h
         // let me know if there is any way of using pai
     }

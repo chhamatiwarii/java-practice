@@ -34,7 +34,7 @@ public class PrimeCheck {
                 System.out.println("Not Prime");
             }
         //isse jada mai nii soch paayi i know this is wrong because every number is divisible by 1 and its own
-        }
+        }sc.close();
 
     }
 

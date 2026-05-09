@@ -65,6 +65,7 @@ class Test {
             System.out.println(n);
         }
         System.out.println("\n PROGRAM END ‼️");
+        sc.close();
 
     
         

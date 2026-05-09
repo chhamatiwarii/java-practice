@@ -1,7 +1,7 @@
 class ByteDataType {
     
     public static void main(String[] args) {
-        byte b = 10;
+        //byte b = 10;
         // byte b2 = 130; // Chhote taale me badi chabhi
         // byte b2 = 10.5;  // incompatible types
         // byte b3 = true;  // incompatible types

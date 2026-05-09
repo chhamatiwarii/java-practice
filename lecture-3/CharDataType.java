@@ -10,8 +10,8 @@ public class CharDataType {
         // char ch2 = 980;
         // System.out.println(ch2);
 
-        byte b;
-        System.out.println(b);
+        // byte b;
+        // System.out.println(b);
     }
 
 }

@@ -1,9 +1,9 @@
 class JavaOops {
     public static void main(String[] args) {
         // Data Types
-        int a = 10;
-        int b = 10 + 2;
-        int c = 10 + 2.0;
+        // int a = 10;
+        // int b = 10 + 2;
+        // int c = 10 + 2.0;
 
 
         // Java is object oriented programming language or not?  - yes

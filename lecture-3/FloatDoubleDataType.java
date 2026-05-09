@@ -6,7 +6,7 @@ public class FloatDoubleDataType {
         // then we will use float  (single precision)
         // Size: 4 bytes
 
-        float f = 2.54372F;
+        //float f = 2.54372F;
 
 
         
@@ -15,7 +15,7 @@ public class FloatDoubleDataType {
         // then we will use double   (double precision)
         // Size: 8 bytes
 
-        double d = 2.437855;
+        //double d = 2.437855;
     }
     
 }

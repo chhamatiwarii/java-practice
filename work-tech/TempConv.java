@@ -11,7 +11,7 @@ public class TempConv {
             double f = (9*t/5) + 32;
             System.out.println(f);
 
-        }
+        }sc.close();
         
     }
 }

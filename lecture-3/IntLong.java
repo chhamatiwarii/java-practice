@@ -1,7 +1,7 @@
 class IntLong {
     public static void main(String[] args) {
-        int n = 2147483647;
-        long l = 2147483648L;
+        // int n = 2147483647;
+        // long l = 2147483648L;
 
         // System.out.println(n);
         // System.out.println(Math.pow(2, 31) - 1);

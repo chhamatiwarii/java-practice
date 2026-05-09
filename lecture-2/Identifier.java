@@ -11,33 +11,33 @@ class Identifier {
         //      _ (underscore) and $ (dollar)
         // If we use any other character we will get compile time error.
 
-        int total_number = 10;
-        int total2 = 20;
-        String abc1234;
+        // int total_number = 10;
+        // int total2 = 20;
+        // String abc1234;
 
 
         // 2. Identifiers are not allowed to start with digit.
-        int abc123; // valid
+        //int abc123; // valid
         // int 123abc;  // invalid
 
         // 3. Identifier names are case sensitive.
         // Therefore Java itself is case sensitive.
-        int number=10;
-        int Number=20;
-        int NUMBER=20;     // we can differentiate with case.
-        int NuMbEr=30;
+        // int number=10;
+        // int Number=20;
+        // int NUMBER=20;     // we can differentiate with case.
+        // int NuMbEr=30;
 
 
         // 4. We cannot use reserved words in java as identifiers.
         // int if = 10;     // invalid
-        int iF = 10;
+        //int iF = 10;
 
         // 5. All the predefined java class names and interface names we can use as identifiers.
         // Even though it is legal to use predefined java class names and interface names as identifiers
         // but it is not recommended to use because it is not a good programming practice and it can
         // lead to confusion.
-        int String = 10;
-        int Runnable = 20;
+        // int String = 10;
+        // int Runnable = 20;
         
 
         // _$_ (valid)

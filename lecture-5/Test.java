@@ -42,6 +42,6 @@ class Test {
         // System.out.println(i);
 
         // Employee e = new Employee();
-        Object o = Class.forName("Employee").newInstance();
+        //Object o = Class.forName("Employee").newInstance();
     }
 }

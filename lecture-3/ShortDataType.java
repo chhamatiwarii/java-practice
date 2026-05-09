@@ -5,8 +5,8 @@ class Test {
         // Short 
         // It is most rarely used data type in java.
 
-        short s = 130;
-        short s2 = 10;
+        // short s = 130;
+        // short s2 = 10;
         // short s3 = 204.7;  // possible lossy conversion from double to short
         // short s4 = 32768;  // possible lossy conversion from int to short
         // short s5 = true;   // incompatible types

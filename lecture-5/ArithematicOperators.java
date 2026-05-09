@@ -1,4 +1,4 @@
-import static java.lang.Float.*;
+//import static java.lang.Float.*;
 
 class Test {
     public static void main(String[] args) {
@@ -61,7 +61,7 @@ class Test {
 
 
 
-        int x = 10;
+        //int x = 10;
         // System.out.println(x > 11);  // false
         // System.out.println(x < NaN);  // false
         // System.out.println(x > NEGATIVE_INFINITY);   // true
