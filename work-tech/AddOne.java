@@ -11,7 +11,6 @@ class Addone {
         int b = a + 1;
 
         System.out.println("Hello " +  name + "!" +  " Next year, you will be " +  b + " years old");
-        
-sc.close();
+        sc.close();
     }
 }
