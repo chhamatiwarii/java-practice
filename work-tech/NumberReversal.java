@@ -9,6 +9,7 @@ public class NumberReversal {
         String s = String.valueOf(num);
         System.out.println(s);
 
+
         int num2 = Integer.parseInt(s);
         System.out.println(num2);
         
