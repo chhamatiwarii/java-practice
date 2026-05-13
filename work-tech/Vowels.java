@@ -10,6 +10,7 @@ public class Vowels {
             System.out.print("Enter your name = ");
             
         }
+        sc.close();
 
 
     }

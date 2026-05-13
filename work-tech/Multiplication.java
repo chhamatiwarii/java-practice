@@ -10,7 +10,6 @@ public class Multiplication {
             System.out.print("Enter your Number = ");
             int number = sc.nextInt();
 
-            int n = 10;
             for(int j = 1; j <= 10; j++){
                 System.out.println(number*j);
             }
