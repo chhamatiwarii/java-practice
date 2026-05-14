@@ -5,6 +5,8 @@ public class GuessNumberGame {
         int randomNumber = (int) (Math.random() * 100 + 1);
         // System.out.println(randomNumber);
         Scanner sc = new Scanner(System.in);
+        // int i = 0;
+        boolean isWon = false;
         for (int i = 0; i < 8; i++) {
             System.out.print("Enter Your number = ");
             int c = sc.nextInt();
@@ -15,10 +17,12 @@ public class GuessNumberGame {
                 System.out.println("Too less");
             } else if (randomNumber == c) {
                 System.out.println("You Guessed it right");
+                isWon = true;
                 break;
             }
         }
-        if(randomNumber != c){
+
+        if(isWon == false){
             System.out.println("You lost" + " Correct Number is = " + randomNumber);
         }
 
