@@ -1,55 +1,26 @@
-class Test {
-    public static void main(String[] args) {
-        // Iterative Statements
-        // When we want to perform an action again and again repetetively
-        // then we can achieve this using iterative statements
+public class Test {
 
-        // while
-        // do-while
-        // for
-        // forEach
-
-
-        // While loop
-        // if we don't know the number of 
-        // iterations in advance then the
-        // best loop is while loop
-
-
-        /*
-        
-            while(argument) {
-                // repetetive task -- loop body
-            }
-
-            The argument in the while statement should be of boolean type. If we are using
-            any other type then we will get compile time error.
-
-        */
-
-            // while (true) {
-            //     System.out.println("Kajal");
-            // }
-
-            /*
-                Curly braces (delimiters) are optional and without curly braces 
-                we can take only one statement which should not be a declarative statement.
-            */
-
-        // while (true) 
-        //     System.out.println("Kajal");
-
-        // while(true)
-        //     int x = 10;   // error: because this is a declarative statement
-
+     public static void main(String[] args) {
         // while (true) {
+        //     int x = 12;
+        // }
+        // System.out.println("Kajal");  // unreachable code
 
-        // }   // program goes to infinite loop
+        // while(false) {                  // unreachable code - false is hardcoded
+        //     System.out.println("Kajal");   
+        // }
 
-        // while(true);     // program goes to infinite loop
+        // boolean b = false;
+        // while(b) {                  // 
+        //     System.out.println("Kajal");   
+        // }
 
-        // while (true) {
-        //     int x = 10;
-        // }        // no output - infinite loop
-    }
+
+        int a = 10;
+        while (a < 20) {
+            System.out.println("hello");
+            a++;
+        }
+        System.out.println("hi");
+     }
 }
