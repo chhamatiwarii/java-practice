@@ -19,6 +19,7 @@ public class FizzBuzz {
             }
 
         }
+        sc.close();
 
 
 
