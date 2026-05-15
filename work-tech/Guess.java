@@ -5,20 +5,21 @@ public class Guess {
         Scanner sc = new Scanner(System.in);
         int n = Integer.MAX_VALUE;
 
-        for(int i = 0; i <= n; i++){
+        for (int i = 0; i <= n; i++) {
             System.out.print("Please guess my birth date = ");
             int d = sc.nextInt();
 
-            if(d > 0 && d <= 31){
-                if(d == 1){
+            if (d > 0 && d <= 31) {
+                if (d == 1) {
                     System.out.println("Correct! you guessed it right ");
                     break;
-                }else{
+                } else {
                     System.out.println("Incorrect guess ");
                 }
-            }else{
+            } else {
                 System.out.println("Invalid date");
             }
-        }sc.close();
+        }
+        sc.close();
     }
 }
