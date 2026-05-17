@@ -79,7 +79,35 @@ class TransferStatements {
         // if(x == 10) continue;           // error: continue outside of loop
         // System.out.println("If you give wrong answer to this question then you are the most stupid person in this planet");
 
+        // Break and Continue in nested loop
+        // int n = 10;
+        // for(int i=1; i<=n; i++) {
+        //     for (int j = 1; j <= i; j++) {
+        //         System.out.print("* ");
+        //         if(j == 5) break;
+        //     }
+        //     System.out.println();
+        // }
 
-        
+        // int n = 10;
+        // for(int i=1; i<=n; i++) {
+        //     for (int j = 1; j <= i; j++) {
+        //         if(i == 5) break;
+        //         System.out.print("* ");
+        //     }
+        //     System.out.println();
+        // }
+
+        // Labelled break and continue
+        // int n = 5;
+        // outer: for(int i=1; i<=n; i++) {
+        //     inner: for(int j=1; j<=i; j++) {
+        //         System.out.print(i + " ");
+        //         if(j == 3) continue outer; 
+        //     }
+        //     System.out.println();
+        // }
+        // System.out.println();
+        // System.out.println("Program Complete");
     }
 }
