@@ -1,4 +1,4 @@
-class Test {
+class EqualityOperators {
 
     public static void main(String[] args) {
         // Equality Operators
@@ -36,14 +36,14 @@ class Test {
         // In general we can use .equals() for content comparison where as == operator
         // for reference comparison
         
-        // String s1 = "kajal";
-        // String s2 = "Kajal";
-        // System.out.println(s1 == s2);
-        // System.out.println(s1.equals(s2));
+        String s1 = "kajal";
+        String s2 = "kajal";
+        System.out.println(s1 == s2);
+        System.out.println(s1.equals(s2));
 
-        // String s1 = new String("kajal");
-        // String s2 = new String("kajal");
-        // System.out.println(s1 == s2);       // false
-        // System.out.println(s1.equals(s2));     // true
+        String s3 = new String("kajal");
+        String s4 = new String("kajal");
+        System.out.println(s3 == s4);       // false
+        System.out.println(s3.equals(s4));     // true
     }
 }

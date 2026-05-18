@@ -1,5 +1,5 @@
 
-class Test {
+class IncDec {
     public static void main(String[] args) {
         
         // Increment, Decrement operators can only be applicable for

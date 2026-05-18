@@ -11,17 +11,23 @@ class IntLong {
         // byte -- Byte
         // short -- Short
 
-        System.out.println(Integer.MAX_VALUE);
-        System.out.println(Integer.MIN_VALUE);
+        System.out.println("value of Integer " + Integer.MAX_VALUE);
+        System.out.println("value of Integer " + Integer.MIN_VALUE);
 
-        System.out.println(Long.MAX_VALUE);
-        System.out.println(Long.MIN_VALUE);
+        System.out.println("value of Long " + Long.MAX_VALUE);
+        System.out.println("value of Long " + Long.MIN_VALUE);
 
-        System.out.println(Byte.MAX_VALUE);
-        System.out.println(Byte.MIN_VALUE);
+        System.out.println("value of Byte " + Byte.MAX_VALUE);
+        System.out.println("value of Byte " + Byte.MIN_VALUE);
 
-        System.out.println(Short.MAX_VALUE);
-        System.out.println(Short.MIN_VALUE);
+        System.out.println("value of Short " + Short.MAX_VALUE);
+        System.out.println("value of Short " + Short.MIN_VALUE);
+
+         System.out.println("value of float " + Float.MAX_VALUE);
+        System.out.println("value of float " + Float.MIN_VALUE);
+
+         System.out.println("value of double " + Double.MAX_VALUE);
+        System.out.println("value of double " + Double.MIN_VALUE);
 
         // byte short int long
         // these can be used to represent whole numbers only

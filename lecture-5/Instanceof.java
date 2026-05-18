@@ -9,18 +9,18 @@
 // }
 
 
-class Test {
+class Instanceof {
     public static void main(String[] args) {
-        // String s = new String("kajal");
-        // String s = "kajal";
-        // System.out.println(s instanceof String);
+        String s = new String("kajal");
+        String s1 = "kajal";
+        System.out.println(s instanceof String);
         
-        // Thread t = new Thread();
-        // System.out.println(t instanceof Thread);
+        Thread t1 = new Thread();
+        System.out.println(t1 instanceof Thread);
 
-        // String s = "kajal is pagal";
-        // System.out.println(s instanceof String);
-        // System.out.println(s instanceof Object);
+        String s3 = "kajal is pagal";
+        System.out.println(s3 instanceof String);
+        System.out.println(s3 instanceof Object);
 
 
         // Vehicle v1 = new Vehicle();
@@ -36,14 +36,14 @@ class Test {
 
 
 
-        // Thread t = new Thread();
-        // System.out.println(t instanceof Thread);
-        // System.out.println(t instanceof Object);
-        // System.out.println(t instanceof Runnable);
+        Thread t = new Thread();
+        System.out.println(t instanceof Thread);
+        System.out.println(t instanceof Object);
+        System.out.println(t instanceof Runnable);
 
 
-        // String s = new String("Bhaskar");
-        // System.out.println(s instanceof String);
+        String s4 = new String("Bhaskar");
+        System.out.println(s4 instanceof String);
         // System.out.println(s instanceof Thread);  // error: incompatible types: String cannot be converted to Thread
 
         // Object o = new Object();

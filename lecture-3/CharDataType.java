@@ -6,12 +6,13 @@ public class CharDataType {
 
         // Java -- Unicode Representation
         // Size -- 2 bytes -- 16 bits -- >65k characters
-        // char ch = 'a';
-        // char ch2 = 980;
-        // System.out.println(ch2);
+        char ch = 'a';
+        char ch2 = 980;
+        System.out.println(ch2);
 
-        // byte b;
-        // System.out.println(b);
+    
+        byte b =10;
+        System.out.println(b);
     }
 
 }

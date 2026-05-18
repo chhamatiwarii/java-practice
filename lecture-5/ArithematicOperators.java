@@ -1,6 +1,6 @@
 //import static java.lang.Float.*;
 
-class Test {
+class ArithematicOperators {
     public static void main(String[] args) {
         // if we are applying any arithematic operators b/w two operands 'a' and 'b'
         // the result is max(int, type of a, type of b)
@@ -16,18 +16,18 @@ class Test {
         // char + double = double
 
 
-        // System.out.println('a' + 'b');
-        // System.out.println('a' + 1l);
-        // System.out.println('a' + 1.2f);
+        System.out.println('a' + 'b');
+        System.out.println('a' + 1l);
+        System.out.println('a' + 1.2f);
 
         // In integral arithematic (byte, short, int, long) there is no way to 
         // represent infinity, if infinity is the result we'll get the 
         // ArithematicException: / by zero.
-        // System.out.println(10/0);   // ArithmeticException: / by zero
+        //System.out.println(10/0);   // ArithmeticException: / by zero
 
         // But for floating point arithematic (float, double) there is a
         // way to represent infinity
-        // System.out.println(10/0.0);   // O/P: Infinity
+        System.out.println(10/0.0);   // O/P: Infinity
 
         // For Float and Double classes contains the following constants:
         // 1. POSITIVE_INFINITY
@@ -35,8 +35,8 @@ class Test {
         // Hence, if infinity is the result we won't get any Arithematic 
         // Exception in floating point Arithematic.
 
-        // System.out.println(10/0.0);
-        // System.out.println(-10/0.0);
+        System.out.println(10/0.0);
+        System.out.println(-10/0.0);
 
 
         // There is no way to represent undefined results in integral arithematic (byte, short, int, long)
@@ -48,8 +48,8 @@ class Test {
         // results.
         // For Float and Double classes we have a constant called NaN (Not a Number), Hence when
         // the result is undefined we won't get arithematic exception in floating point arithematics.
-        // System.out.println(0/0.0);
-        // System.out.println(-0/0.0);
+        System.out.println(0/0.0);
+        System.out.println(-0/0.0);
 
 
         // ArithematicException
@@ -61,9 +61,9 @@ class Test {
 
 
 
-        //int x = 10;
-        // System.out.println(x > 11);  // false
-        // System.out.println(x < NaN);  // false
+        int x = 10;
+        System.out.println(x > 11);  // false
+        //System.out.println(x < NaN);  // false
         // System.out.println(x > NEGATIVE_INFINITY);   // true
         // System.out.println(x > NaN);    // false
         // System.out.println(NaN == NaN);    // false

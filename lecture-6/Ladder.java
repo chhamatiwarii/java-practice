@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public class Ladder {
+class Ladder {
 
     public static void main(String[] args) {
         // You need to take a user input
@@ -24,7 +24,8 @@ public class Ladder {
             System.out.println("Highest");
         } else {
             System.out.println("Invalid Input");
-        }sc.close();
+        }
+        sc.close();
         System.out.println("\n PROGRAM END ‼️");
     }
 }

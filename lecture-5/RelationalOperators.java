@@ -2,17 +2,17 @@ class Vehicle {
     int wheels;
 }
 
-class Test {
+class RelationalOperators {
     public static void main(String[] args) {
         // Relational Operators
         // Basically used for comparison
         // >, <, >=, <=
 
         // we can apply relational operators for any primitive type except boolean
-        // System.out.println( 10 > 10.5);     // false
-        // System.out.println( 'a' > 95.5);     // true
-        // System.out.println( 'a' > 'z');     // false
-        // System.out.println(true > false);   // error: bad operand types for binary operator '>'
+        System.out.println( 10 > 10.5);     // false
+        System.out.println( 'a' > 95.5);     // true
+        System.out.println( 'a' > 'z');     // false
+        //System.out.println(true > false);   // error: bad operand types for binary operator '>'
 
 
 

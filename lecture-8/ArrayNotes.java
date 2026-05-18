@@ -70,8 +70,8 @@ class ArrayNotes {
         // int[] arr = new int[3];
         // int[] arr = new int[];          // error: array dimension missing
 
-        // int[] arr = new int[5];
-        // System.out.println(arr.length);
+        int[] arr = new int[5];
+        System.out.println(arr.length);
 
         // Rule-2: It is legal to have an array of size zero in java.
         // int[] arr = new int[0];
@@ -101,13 +101,13 @@ class ArrayNotes {
         // If it exeeds this you'll get RE: OutOfMemoryError.
 
         // Array Initialization
-        // int[] arr = new int[4];
-        // System.out.println(arr);
-        // System.out.println(arr[2]);
+        // int[] arr1 = new int[4];
+        // System.out.println(arr1); //prints address
+        // System.out.println(arr1[2]);
 
-        // double[] arr = new double[4];
-        // System.out.println(arr);
-        // System.out.println(arr[2]);
+        // double[] arr3 = new double[4];
+        // System.out.println(arr3);
+        // System.out.println(arr3[2]);
 
         // Whenever we are creating an array every element is initialized with default value automatically.
         // If we are not satified with those values then we can override those values.
@@ -134,20 +134,19 @@ class ArrayNotes {
 
 
         // Traversing the array
-        int[] arr = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
-        // for (int i = 0; i < arr.length; i++) {
-        //     System.out.println(arr[i]);
-        // }
+        int[] arr6 = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
+        for (int i = 0; i < arr6.length; i++) {
+            System.out.println(arr6[i]);
+        }
 
-        // int n = arr.length;
-        // int i = 0;
-        // while (i < n) {
-        //     System.out.println(arr[i++]);
-        //     // i++;
-        // }
-
-        // for (int i: arr) {
-        //     System.out.println(i);
-        // }
+        int n = arr6.length;
+        int i = 0;
+        while (i < n) {
+            System.out.println(arr6[i++]);
+            // i++;
+        }
+        for (int k: arr6) {
+            System.out.println(k);
+        }
     }    
 }
