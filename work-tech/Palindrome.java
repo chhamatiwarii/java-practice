@@ -10,7 +10,7 @@ public class Palindrome {
         for(int i = palindrome.length()-1; i >= 0; i--){
             palindromeReverse += palindrome.charAt(i);
 
-        }if(palindrome == palindromeReverse){
+        }if(palindrome.equals(palindromeReverse)){     //.equals operator use hoga
             System.out.println("Palindrome");
         }else{
             System.out.println("Not Palindrome");
