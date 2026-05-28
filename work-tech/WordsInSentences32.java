@@ -12,11 +12,11 @@ public class WordsInSentences32 {
             int word = 0;
             System.out.print("Enter Your sentence = ");
             String sentence = sc.nextLine();
-            String[] senArray = new String[sentence.length()];
-            for(int j = 0; j<senArray.length; j++){
-                word =+ j;
+            // System.out.println(sentence.split(" ").length);
+            for(int j=0; j<=sentence.length(); j++) {
+                if(sentence.charAt(j) == ' ') word++;
             }
-            System.out.println(word);
+            System.out.println(word + 1);
         }
         
     }
